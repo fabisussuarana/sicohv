@@ -1,0 +1,130 @@
+:root{
+    --primary-color: #eee;
+    --dp-fundo: rgba(64, 223, 90, 0.747);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(7, 80, 43, 0.89)url('../img/if-fundo.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+/* Header */
+
+div#logo img{
+    width: 70px;
+    padding: 10px 0 5px 15px;
+}
+
+.cabecalho{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.301);
+}
+
+div.cabecalho div#portal{
+    padding: 10px 20px 0 0;
+}
+
+/* Body */
+
+div#inf{
+    padding: 3px 0 0 30px;
+}
+
+h3{
+    font-size: 25px;
+    color: rgb(14, 97, 55);
+    margin-bottom: 30px;
+}
+
+h3::after{
+    content: '';
+    display: flex;
+    background-color: rgba(14, 97, 55, 0.89);
+    width: 290px;
+    height: 2px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+div#container{
+    background-color: #ffffff;
+    margin-top: 70px;
+    border-radius: 8px;
+    width: 350px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 1px 5px rgba(255, 255, 255, 0.534);
+}
+
+.dp ul{
+    list-style-type: none;
+    padding: 0;
+    margin-right: 70px;
+}
+
+.dp ul li{
+    display: inline;
+    position: relative;
+}
+
+.dp ul li a{
+    display: block;
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 10px;
+    background-color: rgb(13, 160, 86);
+    transition: background .3s;
+}
+
+.curso{
+    border-radius: 8px;
+    margin: 10px 0 0 55px;
+}
+
+.dp ul li a:hover{
+    background-color: rgb(10, 128, 69);
+}
+
+/* sub menu */
+
+.dp ul ul{
+    display: none;
+    position: absolute;
+    width: 100px;
+}
+
+.dp ul ul#first{
+    z-index: 3;
+}
+
+.dp ul ul#second{
+    z-index: 2;
+}
+
+.dp ul ul#third{
+    z-index: 1;
+}
+
+.dp ul li:hover ul{
+    display: block;
+    margin-left: 60px;
+}
+
+.dp ul ul li a{
+    display: block;
+}

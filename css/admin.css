@@ -1,0 +1,69 @@
+body{
+    background: rgba(7, 80, 43, 0.89)url('../img/if-fundo.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+div#logo img{
+    width: 70px;
+    padding: 10px 0 5px 15px;
+}
+
+.cabecalho{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.301);
+}
+
+/* Tabela */
+
+table{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table tr{
+    background-color: rgba(2, 39, 20, 0.425);
+    color: white;
+}
+
+th{
+    padding: 5px;
+    background-color: rgba(1, 31, 16, 0.527);
+}
+
+td{
+    padding: 5px;
+}
+
+input{
+    width: 130px;
+    background-color: transparent;
+    border: none;
+    color: white;
+} 
+
+td.atualiza{
+    background-color: rgba(189, 76, 0, 0.425);
+}
+
+td.deleta{
+    background-color: rgba(212, 16, 2, 0.425);
+}
+
+input[type='submit']{
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+/* Fonte da página e reset dos espaços vazios */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* divs como linhas e colunas para responsividade */
+div.row {
+  overflow: auto;
+  text-align: center;
+}
+
+div[class^='col'] {
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+}
+  
+div.col-25 {
+  width: 25%;
+}
+
+div.col-50 {
+  width: 50%;
+}
+
+div.col-75 {
+  width: 75%;
+}

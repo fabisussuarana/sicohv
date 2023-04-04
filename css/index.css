@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(7, 80, 43, 0.89)url('../img/if-fundo.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-blend-mode: darken;
+}
+
+.bottom{
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 35px 0 0 0;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+div#logo img{
+    width: 70px;
+    padding: 10px 0 5px 15px;
+}
+
+.cabecalho{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.301);
+}
+
+button {
+    width: 150px;
+    padding: 8px 0;
+    margin: 0 0 25px 0;
+    border-radius: 20px;
+    background-color: #4cd380cb;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: #289954;
+}
+
+#admin{
+    overflow: auto;
+    text-align: center;
+    color: #32db65;
+    text-decoration: none;
+}
+
+#admin:hover{
+    color: #189c40;
+}
+
+#gap { /*espaço no topo da página*/
+    height: 150px;
+}

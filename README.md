@@ -1,2 +1,3 @@
 # sicohv
-Sistemas de gerenciamento de horários vagos, criado quando eu e meus colegas de equipe estávamos no terceiro ano no ifac.
+Este sistemas foi criado para solucionar o problema dos professores em gerenciar os horários vagos, e dos alunos em ficarem atualizados em relação a esses horários.
+

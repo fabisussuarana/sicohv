@@ -1,0 +1,111 @@
+form {
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 300px;
+    height: 340px;
+    margin-top: 100px;
+    box-shadow: 0 1px 5px rgba(255, 255, 255, 0.534);
+}
+
+body{
+    background: rgba(7, 80, 43, 0.89)url('../img/if-fundo.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+#cad{
+    color: rgb(14, 97, 55);
+    display: inline-block;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+#cad::after{
+    content: '';
+    display: flex;
+    background-color: rgba(14, 97, 55, 0.89);
+    width: 230px;
+    height: 2px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+div#logo img{
+    width: 70px;
+    padding: 10px 0 5px 15px;
+}
+
+.cabecalho{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.301);
+}
+
+div.cabecalho div#portal{
+    padding: 10px 20px 0 0;
+}
+
+label{
+    font-weight: bold;
+    color: rgb(14, 97, 55);
+}
+
+input{
+    border: 1px solid rgba(5, 104, 55, 0.39);
+    border-radius: 5px;
+    height: 28px;
+}
+
+input {
+    display: inline-block;
+    margin: 8px 0;
+    width: 70%;
+}
+
+.inputBox {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+} 
+
+/* Botão */
+.enviar {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.enviar input {
+    display: inline-block;
+    font-size: 15px;
+    background-color: #3aa15b;
+    border: none;
+    border-radius: 70px;
+    color: white;
+    width: 70px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.enviar input:hover{
+    background-color: #2b8548;
+}
+
+input::placeholder{
+    padding-left: 5px;
+    color: #318d4eea;
+}
+
+input:focus{
+    background-color: #48c06e34;
+}

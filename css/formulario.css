@@ -1,0 +1,92 @@
+body{
+  background: rgba(7, 80, 43, 0.89)url('../img/if-fundo.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+}
+
+div#logo img{
+  width: 70px;
+  padding: 10px 0 5px 15px;
+}
+
+.cabecalho{
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.301);
+}
+
+/* Form */
+.form {
+  width: 350px;
+  overflow: auto;
+  display: inline-block;
+  margin-top: 120px;
+}
+
+.form form {
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #fafafa;
+  margin-bottom: 7px;
+  overflow: auto;
+}
+
+.form h2 {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.form input {
+  box-sizing: border-box;
+  width: 90%;
+  padding: 10px;
+  margin: 20px 10px 0 20px;
+  border: 2px solid #25bd6c48;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.form button {
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #4eb860;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  color: white;
+  width: 25%;
+  margin: 20px 0 20px 0;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form button:hover{
+  background-color: #35a147;
+}
+
+h1{
+  color: rgb(255, 255, 255);
+}
+
+h2{
+  color: rgb(14, 97, 55);
+}
+
+a{
+  text-decoration: none;
+  color:#37e754;
+}
+
+a:hover{
+  color:#2cb342;
+}
